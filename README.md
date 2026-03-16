@@ -7,4 +7,4 @@ All queries include readable column headers and simple table aliases for clarity
 1. Make sure you have **SQL Server Management Studio** installed and the **BikeStores database** loaded.
 2. Open `fellgard_dennis_sql-course.sql` in SQL Server Management Studio.
 3. Execute the queries individually or all at once.
-4. Verify that the results match the assignment’s requested headers and sorting.
+
