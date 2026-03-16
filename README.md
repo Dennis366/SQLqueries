@@ -1,23 +1,10 @@
 # BikeStores SQL Assignment
 
-**Student:** Dennis Fellgard  
-**Course:** Database Development MSSQL  
-**Date:** 16 March 2026  
+This SQL assignment queries the BikeStores database using SQL Server Management Studio (MSSQL) to extract information about brands, customers, products, and orders.  
+All queries include readable column headers and simple table aliases for clarity.
 
-## Description
-This repository contains the SQL queries for the BikeStores database assignment.  
-All queries were executed in SQL Server Management Studio and tested to ensure correct results.  
-
-## Files
-- `fellgard_dennis_sql-course.sql` — Contains all 5 queries:
-
-  1. **Select all brands** — header modified to "Brand"
-  2. **Customers from Bronx and Brooklyn** — headers modified (Cust ID, Last name, First name, Email, Street Address, City, State) and sorted by City and Last name
-  3. **All products with readable brand name** — headers modified (Product name, Brand, Model, Price) and sorted by Product name descending
-  4. **Count of NY customers** — header modified to "NY Customers"
-  5. **Products ordered by Pamala Henry from Bronx NY** — headers modified (Product name, Brand, Price) and brand name is readable
-
-## Notes
-- Table aliases (`p`, `b`, `c`, `o`, `oi`) are used for readability.  
-- Column aliases (`AS`) are used to match the assignment's required headers.  
-- SQL queries are written in a simple and beginner-friendly way without unnecessary complexity.
+## How to Run
+1. Make sure you have **SQL Server Management Studio** installed and the **BikeStores database** loaded.
+2. Open `fellgard_dennis_sql-course.sql` in SQL Server Management Studio.
+3. Execute the queries individually or all at once.
+4. Verify that the results match the assignment’s requested headers and sorting.
